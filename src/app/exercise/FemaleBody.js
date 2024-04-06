@@ -1,8 +1,14 @@
 import React from "react";
 
-export const FemaleBodyFront = ({ selectedBodyPart, setSelectedBodyPart }) => {
+export const FemaleBodyFront = ({
+  selectedBodyPart,
+  setSelectedBodyPart,
+  gender,
+}) => {
   return (
-    <div className="col-span-12 md:col-span-6">
+    <div
+      className={`col-span-12 md:col-span-6 ${gender != "female" && "hidden"}`}
+    >
       <svg
         viewBox="0 0 642 1200"
         fill="none"
@@ -178,9 +184,15 @@ export const FemaleBodyFront = ({ selectedBodyPart, setSelectedBodyPart }) => {
   );
 };
 
-export const FemaleBodyBack = ({ selectedBodyPart, setSelectedBodyPart }) => {
+export const FemaleBodyBack = ({
+  selectedBodyPart,
+  setSelectedBodyPart,
+  gender,
+}) => {
   return (
-    <div className="col-span-12 md:col-span-6">
+    <div
+      className={`col-span-12 md:col-span-6 ${gender != "female" && "hidden"}`}
+    >
       <svg
         viewBox="0 0 657 1200"
         fill="none"

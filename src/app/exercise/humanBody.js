@@ -46,6 +46,8 @@ const HumanBody = () => {
     console.log(error);
   };
 
+  console.log(gender);
+
   return (
     <div className="grid pb-10 grid-cols-12 mt-10 gap-x-5 ">
       <div className="col-span-12  md:col-span-8 bg-black2 p-5  rounded-2xl grid gap-x-5 items-center grid-cols-12 ">
@@ -54,30 +56,39 @@ const HumanBody = () => {
             Select Body Part You Want to Exercise
           </h1>
         </div>
-        {gender == "male" && (
-          <>
-            <FrontBody
-              selectedBodyPart={selectedBodyPartFront}
-              setSelectedBodyPart={setSelectedBodyPartFront}
-            />
-            <BackBody
-              selectedBodyPart={selectedBodyParBack}
-              setSelectedBodyPart={setSelectedBodyParBack}
-            />
-          </>
-        )}
-        {gender == "female" && (
-          <>
-            <FemaleBodyFront
-              selectedBodyPart={selectedBodyPartFront}
-              setSelectedBodyPart={setSelectedBodyPartFront}
-            />
-            <FemaleBodyBack
-              selectedBodyPart={selectedBodyParBack}
-              setSelectedBodyPart={setSelectedBodyParBack}
-            />
-          </>
-        )}
+
+        <div
+          className={`grid grid-cols-12 gap-x-5 col-span-12 ${
+            gender === "male" ? "block" : "hidden"
+          } `}
+        >
+          <FrontBody
+            gender={gender}
+            selectedBodyPart={selectedBodyPartFront}
+            setSelectedBodyPart={setSelectedBodyPartFront}
+          />
+          <BackBody
+            gender={gender}
+            selectedBodyPart={selectedBodyParBack}
+            setSelectedBodyPart={setSelectedBodyParBack}
+          />
+        </div>
+        <div
+          className={`grid grid-cols-12 gap-x-5 col-span-12 ${
+            gender === "female" ? "block" : "hidden"
+          } `}
+        >
+          <FemaleBodyFront
+            gender={gender}
+            selectedBodyPart={selectedBodyPartFront}
+            setSelectedBodyPart={setSelectedBodyPartFront}
+          />
+          <FemaleBodyBack
+            gender={gender}
+            selectedBodyPart={selectedBodyParBack}
+            setSelectedBodyPart={setSelectedBodyParBack}
+          />
+        </div>
       </div>
       <div className="col-span-12 mt-2 md:mt-0 md:col-span-4 p-5 bg-black2  rounded-2xl">
         <div className="flex gap-x-3">

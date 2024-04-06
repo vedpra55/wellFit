@@ -1,6 +1,12 @@
-export const FrontBody = ({ selectedBodyPart, setSelectedBodyPart }) => {
+export const FrontBody = ({
+  selectedBodyPart,
+  setSelectedBodyPart,
+  gender,
+}) => {
   return (
-    <div className="col-span-12 md:col-span-6">
+    <div
+      className={`col-span-12 md:col-span-6 ${gender != "male" && "hidden"}`}
+    >
       <div>
         <svg
           viewBox="0 0 673 1200"
@@ -180,9 +186,11 @@ export const FrontBody = ({ selectedBodyPart, setSelectedBodyPart }) => {
   );
 };
 
-export const BackBody = ({ selectedBodyPart, setSelectedBodyPart }) => {
+export const BackBody = ({ selectedBodyPart, setSelectedBodyPart, gender }) => {
   return (
-    <div className="col-span-12 md:col-span-6">
+    <div
+      className={`col-span-12 md:col-span-6 ${gender != "male" && "hidden"}`}
+    >
       <svg
         viewBox="0 0 673 1200"
         fill="none"
