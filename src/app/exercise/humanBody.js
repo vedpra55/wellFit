@@ -97,8 +97,8 @@ const HumanBody = () => {
             defaultChecked={gender == "male" ? false : true}
             icons={false}
             onChange={() => {
-              setGender((prv) =>
-                setGender(gender === "male" ? "female" : "male")
+              setGender((prevGender) =>
+                prevGender === "male" ? "female" : "male"
               );
               setSelectedBodyParBack("");
               setSelectedBodyPartFront("");
