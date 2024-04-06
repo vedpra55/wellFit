@@ -14,13 +14,6 @@ const AccountPage = async () => {
 
         <div className="flex text-white flex-col mt-10 items-start md:flex-row justify-between">
           <h1 className="  text-white text-3xl font-medium ">Account Center</h1>
-
-          <Link
-            href={"/leaderboard"}
-            className="bg-green-400 mt-2 md:mt-0 text-black1 px-3 text-[14px] py-1 rounded-2xl font-medium"
-          >
-            Leaderboard
-          </Link>
         </div>
         <div className="flex flex-col gap-y-4 px-4 md:px-10 py-4 md:py-10 rounded-xl text-white mt-10 gap-5 justify-between bg-black2 flex-wrap ">
           <div className="flex justify-between">

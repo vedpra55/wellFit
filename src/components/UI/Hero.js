@@ -43,17 +43,17 @@ const Hero = ({ user }) => {
             />
           </div>
         </div>
-        <div className="flex gap-y-2 text-[14px] mt-20 justify-between flex-wrap">
-          <div className="bg-gradient-to-l flex  justify-center rounded-2xl py-2 px-2 md:w-56 text-white1 to-darkYellow from-black2 from-0%">
+        <div className="flex gap-y-2 text-[14px] mt-14 md:mt-20 justify-between flex-wrap">
+          <div className="bg-gradient-to-l flex  justify-center rounded-2xl py-2 px-3 md:px-2 md:w-56 text-white1 to-darkYellow from-black2 from-0%">
             Personalized Training
           </div>
-          <div className="bg-gradient-to-l flex  justify-center rounded-2xl py-2 px-2 md:w-56 text-white1 to-darkYellow from-black2 from-0%">
+          <div className="bg-gradient-to-l flex  justify-center rounded-2xl py-2 px-3  md:text-base md:px-2  md:w-56 text-white1 to-darkYellow from-black2 from-0%">
             Hand Picked Content
           </div>
-          <div className="bg-gradient-to-l flex  justify-center  rounded-2xl py-2 px-2 md:w-56 text-white1 to-darkYellow from-black2 from-0%">
+          <div className="bg-gradient-to-l flex  justify-center  rounded-2xl py-2  px-3 md:px-2 md:w-56 text-white1 to-darkYellow from-black2 from-0%">
             Hand Picked Content
           </div>
-          <div className="bg-gradient-to-l flex  justify-center rounded-2xl py-2 px-2 md:w-56 text-white1 to-darkYellow from-black2 from-0%">
+          <div className="bg-gradient-to-l flex  justify-center rounded-2xl py-2 px-3 md:px-2  md:w-56 text-white1 to-darkYellow from-black2 from-0%">
             Hand Picked Content
           </div>
         </div>

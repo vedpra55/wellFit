@@ -11,3 +11,15 @@ export const updateUserPoints = async (uid, points) => {
 
   return true;
 };
+
+export const addWellnessData = async (data) => {
+  const supbase = createClient();
+
+  const { error, status } = await supbase.from("wellness_data").insert(data);
+
+  if (error) {
+    throw error;
+  }
+
+  return true;
+};

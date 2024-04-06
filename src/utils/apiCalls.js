@@ -45,3 +45,15 @@ export const getLeaderBoard = cache(async () => {
 
   return data.data;
 });
+
+export const getWellbeingData = cache(async (uid) => {
+  const supbase = createClient();
+
+  const data = await supbase
+    .from("wellness_data")
+    .select("*")
+    .eq("user_id", uid)
+    .order("created_at", { ascending: false });
+
+  return data.data;
+});
