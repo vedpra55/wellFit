@@ -5,8 +5,6 @@ import Toggle from "react-toggle";
 
 import { BackBody, FrontBody } from "./MaleBody";
 import { FemaleBodyBack, FemaleBodyFront } from "./FemaleBody";
-import { createClient } from "@/utils/supabase";
-import { main_data } from "../../../femaleData";
 import { useRouter } from "next/navigation";
 
 const HumanBody = () => {
@@ -34,19 +32,6 @@ const HumanBody = () => {
       router.push(`/exercise/${gender}/${mainPart}/${selectedEquip}`);
     }
   }, [mainPart]);
-
-  const handleSeed = async () => {
-    const supabase = createClient();
-
-    const { data, error } = await supabase
-      .from("exercise")
-      .insert(main_data)
-      .select();
-
-    console.log(error);
-  };
-
-  console.log(gender);
 
   return (
     <div className="grid pb-10 grid-cols-12 mt-10 gap-x-5 ">
