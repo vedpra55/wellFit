@@ -26,7 +26,7 @@ const Timer = ({ user }) => {
   }, [seconds]);
 
   const handleTimerComplete = async () => {
-    const points = user?.points || 0 + 10;
+    const points = user?.points + 10;
     await updateUserPoints(user.uid, points);
 
     toast.success("Great You Earn 10 Points");
