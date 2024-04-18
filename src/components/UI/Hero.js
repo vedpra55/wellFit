@@ -51,7 +51,7 @@ const Hero = ({ user }) => {
               <img className="w-full rounded-lg" src="https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"/>
             </div>
             <div className= " col-span-12  md:col-span-6">
-              <p className="text-2xl font-semibold pt-3 md:pt-0">Personalized Training</p>
+              <p className="text-2xl font-semibold pt-3 md:pt-0">Personalised Training</p>
               <p className="mt-5">
               “Unlock Your Potential: Discover expert fitness tips, personalized workout plans, and nutrition guidance. Join our community and achieve your fitness goals today! 🏋️‍♂️🥗”
 
