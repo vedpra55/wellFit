@@ -44,49 +44,61 @@ const Hero = ({ user }) => {
           </div>
         </div>
 
-
         <div className="mt-32 text-white">
           <div className="grid grid-cols-12 gap-x-5">
             <div className="col-span-12 md:col-span-6">
-              <img className="w-full rounded-lg" src="https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"/>
+              <img
+                className="w-full rounded-lg"
+                src="https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              />
             </div>
-            <div className= " col-span-12  md:col-span-6">
-              <p className="text-2xl font-semibold pt-3 md:pt-0">Personalised Training</p>
-              <p className="mt-5">
-              “Unlock Your Potential: Discover expert fitness tips, personalized workout plans, and nutrition guidance. Join our community and achieve your fitness goals today! 🏋️‍♂️🥗”
-
-                Feel free to adjust it according to your website’s focus and audience. Best of luck with your website! 🌟🚀
+            <div className=" col-span-12  md:col-span-6">
+              <p className="text-2xl font-semibold pt-3 md:pt-0">
+                Personalised Training
               </p>
-              </div>
-          </div>
-        </div>
-        <div className="mt-10 text-white">
-          <div className="grid grid-cols-12 gap-x-5">
-          <div className="col-span-12 md:col-span-6">
-              <img className="w-full rounded-lg" src="https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"/>
+              <p className="mt-5">
+                Here you will find that personalised training meets your goals.
+                Our tailored workouts, expert guidance, and unwavering support
+                ensure your success. Start your journey today!
+              </p>
             </div>
-          <div className="col-span-12 md:col-span-6">
-              <p className="text-2xl font-semibold pt-3 md:pt-0">Hand Picked Content</p>
-              <p className="mt-5">
-              Train the muscle of your body of your choice, all major body parts for both men and women available,
-              just select the part of the body and start Training
-              </p>
-              </div>
-
-      
           </div>
         </div>
         <div className="mt-10 text-white">
           <div className="grid grid-cols-12 gap-x-5">
             <div className="col-span-12 md:col-span-6">
-              <img className="w-full rounded-lg" src="https://plus.unsplash.com/premium_photo-1669315453542-68167fe4a83b?q=80&w=1793&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"/>
+              <img
+                className="w-full rounded-lg"
+                src="https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              />
+            </div>
+            <div className="col-span-12 md:col-span-6">
+              <p className="text-2xl font-semibold pt-3 md:pt-0">Motivation</p>
+              <p className="mt-5">
+                Ready to take your fitness to new heights? Climb the leaderboard
+                by completing our dynamic workouts. Join a community of
+                motivated individuals, challenge yourself, and see your progress
+                soar. Use the app and start climbing today!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="mt-10 text-white">
+          <div className="grid grid-cols-12 gap-x-5">
+            <div className="col-span-12 md:col-span-6">
+              <img
+                className="w-full rounded-lg"
+                src="https://plus.unsplash.com/premium_photo-1669315453542-68167fe4a83b?q=80&w=1793&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              />
             </div>
             <div className="col-span-12 md:col-span-6">
               <p className="text-2xl font-semibold pt-3 md:pt-0">Wellbeing</p>
               <p className="mt-5">
-              This wellfit is your one-stop shop for achieving well-being through a powerful combination of fitness and meditation. We believe a holistic approach that strengthens both the body and mind is key to unlocking your full potential. Track your mood, water intake and more
+                Elevate your well-being with our personalised training platform.
+                Track activity, mood, nutrition, and sleep, while accessing
+                meditation links and answers for holistic health. Start now!
               </p>
-              </div>
+            </div>
           </div>
         </div>
       </div>
