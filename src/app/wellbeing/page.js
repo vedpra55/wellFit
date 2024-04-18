@@ -29,6 +29,9 @@ const Wellbeing = async () => {
           <WellbeingContainer user={user} />
           <WellbeingTable user={user} />
         </div>
+        <div className="mt pb-20">
+          <p className="text-white text-2xl font-medium"> Meditation guides</p>
+        </div>
       </div>
     </div>
   );
