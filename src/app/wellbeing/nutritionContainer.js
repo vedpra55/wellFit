@@ -1,5 +1,5 @@
 "use client";
-
+import { GoogleGenerativeAI } from "@google/generative-ai";
 import { useState } from "react";
 import Markdown from "react-markdown";
 
