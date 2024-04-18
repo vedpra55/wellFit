@@ -29,10 +29,6 @@ const AccountPage = async () => {
             <p>{user?.points}</p>
           </div>
           <div className="flex justify-between">
-            <p>Leaderboard Rank</p>
-            <p>{user?.rank}</p>
-          </div>
-          <div className="flex justify-between">
             <p>Height</p>
             <p>{user?.height} CM</p>
           </div>

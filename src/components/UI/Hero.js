@@ -68,9 +68,8 @@ const Hero = ({ user }) => {
           <div className="col-span-12 md:col-span-6">
               <p className="text-2xl font-semibold pt-3 md:pt-0">Hand Picked Content</p>
               <p className="mt-5">
-              “Unlock Your Potential: Discover expert fitness tips, personalized workout plans, and nutrition guidance. Join our community and achieve your fitness goals today! 🏋️‍♂️🥗”
-
-                Feel free to adjust it according to your website’s focus and audience. Best of luck with your website! 🌟🚀
+              Train the muscle of your body of your choice, all major body parts for both men and women available,
+              just select the part of the body and start Training
               </p>
               </div>
 
@@ -83,11 +82,9 @@ const Hero = ({ user }) => {
               <img className="w-full rounded-lg" src="https://plus.unsplash.com/premium_photo-1669315453542-68167fe4a83b?q=80&w=1793&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"/>
             </div>
             <div className="col-span-12 md:col-span-6">
-              <p className="text-2xl font-semibold pt-3 md:pt-0">Wellbing</p>
+              <p className="text-2xl font-semibold pt-3 md:pt-0">Wellbeing</p>
               <p className="mt-5">
-              “Unlock Your Potential: Discover expert fitness tips, personalized workout plans, and nutrition guidance. Join our community and achieve your fitness goals today! 🏋️‍♂️🥗”
-
-                Feel free to adjust it according to your website’s focus and audience. Best of luck with your website! 🌟🚀
+              This wellfit is your one-stop shop for achieving well-being through a powerful combination of fitness and meditation. We believe a holistic approach that strengthens both the body and mind is key to unlocking your full potential. Track your mood, water intake and more
               </p>
               </div>
           </div>
